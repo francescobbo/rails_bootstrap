@@ -6,6 +6,7 @@ gem 'rails', '4.2.1'
 gem 'unicorn'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
+# gem 'newrelic_rpm' # (you need a config/newrelic.yml file)
 
 gem 'slim-rails'
 gem 'sass-rails', '~> 5.0'
@@ -24,6 +25,7 @@ gem 'whenever'
 
 group :development do
   gem 'guard-livereload', require: false
+  gem 'quiet_assets'
 end
 
 group :development, :test do

@@ -9,6 +9,7 @@ This project provides a nice starting point for new projects. It includes the ge
 * Rails 4.2
 * Unicorn
 * Slim
+* New Relic (optional, needs config file)
 
 ### Database
 
@@ -47,6 +48,8 @@ Choose a name for your app, say `myapp`
     rails g rename:app_to myapp
 
 Remove the `rename` gem from the Gemfile and run `bundle`
+
+Log in to New Relic, create a new app and put the received newrelic.yml file in the config directory.
 
 Enjoy.
 

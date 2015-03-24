@@ -25,6 +25,7 @@ This project provides a nice starting point for new projects. It includes the ge
 ### Testing
 
 * RSpec
+* Capybara (with Selenium on Chrome driver)
 * FactoryGirl
 * DatabaseCleaner
 * Timecop

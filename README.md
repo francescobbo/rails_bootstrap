@@ -15,7 +15,7 @@ This project provides a nice starting point for new projects. It includes the ge
 
 * sqlite3 (development)
 * pg (production)
-* [Paranoia](https://github.com/radar/paranoia)
+* [Paranoia](https://github.com/radar/paranoia) - Never Delete Anything
 
 ### Assets
 
@@ -28,19 +28,19 @@ This project provides a nice starting point for new projects. It includes the ge
 * [RSpec](https://github.com/rspec/rspec)
 * [Capybara](https://github.com/jnicklas/capybara) (with Selenium on Chrome driver)
 * [FactoryGirl](https://github.com/thoughtbot/factory_girl)
-* [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
-* [Timecop](https://github.com/travisjeffery/timecop)
+* [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner) - Cleanup the Test Database
+* [Timecop](https://github.com/travisjeffery/timecop) - Freeze time during tests
 
 ### Delaying
 
-* [Resque](https://github.com/resque/resque)
-* [Whenever](https://github.com/javan/whenever)
+* [Resque](https://github.com/resque/resque) - Procrastinate long tasks
+* [Whenever](https://github.com/javan/whenever) - Manage cron jobs
 
 ### Utils
 
 * Spring (with RSpec support)
-* [guard-livereload](https://github.com/guard/guard-livereload)
-* [RedCarpet](https://github.com/vmg/redcarpet)
+* [guard-livereload](https://github.com/guard/guard-livereload) - Reload the browser as the file changes
+* [RedCarpet](https://github.com/vmg/redcarpet) - Easy Markdown rendering
 
 ## Where's Paperclip?
 

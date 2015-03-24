@@ -27,6 +27,7 @@ gem 'whenever'
 
 group :development do
   gem 'guard-livereload', require: false
+  gem 'guard-rspec', require: false
   gem 'quiet_assets'
 end
 

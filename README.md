@@ -30,6 +30,7 @@ This project provides a nice starting point for new projects. It includes the ge
 * [FactoryGirl](https://github.com/thoughtbot/factory_girl)
 * [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner) - Cleanup the Test Database
 * [Timecop](https://github.com/travisjeffery/timecop) - Freeze time during tests
+* [guard-rspec](https://github.com/guard/guard-rspec) - Run tests as the file changes
 
 ### Delaying
 

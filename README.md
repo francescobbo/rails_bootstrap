@@ -6,41 +6,41 @@ This project provides a nice starting point for new projects. It includes the ge
 
 ### Framework
 
-* Rails 4.2
-* Unicorn
-* Slim
-* New Relic (optional, needs config file)
+* [Rails 4.2.1](https://github.com/rails/rails)
+* [Unicorn](https://github.com/defunkt/unicorn)
+* [Slim](https://github.com/slim-template/slim)
+* [New Relic](http://newrelic.com/) (optional, needs config file)
 
 ### Database
 
 * sqlite3 (development)
 * pg (production)
-* Paranoia
+* [Paranoia](https://github.com/radar/paranoia)
 
 ### Assets
 
-* Turbolinks
-* Autoprefixer
-* Normalize.css
+* [Turbolinks](https://github.com/rails/turbolinks)
+* [Autoprefixer](https://github.com/ai/autoprefixer-rails)
+* [Normalize.css](https://github.com/necolas/normalize.css/)
 
 ### Testing
 
-* RSpec
-* Capybara (with Selenium on Chrome driver)
-* FactoryGirl
-* DatabaseCleaner
-* Timecop
+* [RSpec](https://github.com/rspec/rspec)
+* [Capybara](https://github.com/jnicklas/capybara) (with Selenium on Chrome driver)
+* [FactoryGirl](https://github.com/thoughtbot/factory_girl)
+* [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
+* [Timecop](https://github.com/travisjeffery/timecop)
 
 ### Delaying
 
-* Resque
-* Whenever
+* [Resque](https://github.com/resque/resque)
+* [Whenever](https://github.com/javan/whenever)
 
 ### Utils
 
 * Spring (with RSpec support)
-* guard-livereload
-* Redcarpet
+* [guard-livereload](https://github.com/guard/guard-livereload)
+* [RedCarpet](https://github.com/vmg/redcarpet)
 
 ## Where's Paperclip?
 
@@ -59,4 +59,3 @@ Remove the `rename` gem from the Gemfile and run `bundle`
 Log in to New Relic, create a new app and put the received newrelic.yml file in the config directory.
 
 Enjoy.
-

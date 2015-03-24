@@ -15,6 +15,7 @@ This project provides a nice starting point for new projects. It includes the ge
 
 * sqlite3 (development)
 * pg (production)
+* Paranoia
 
 ### Assets
 
@@ -39,6 +40,7 @@ This project provides a nice starting point for new projects. It includes the ge
 
 * Spring (with RSpec support)
 * guard-livereload
+* Redcarpet
 
 ## Instructions
 

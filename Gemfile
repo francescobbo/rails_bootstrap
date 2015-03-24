@@ -19,6 +19,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 gem 'bcrypt', '~> 3.1.7'
+gem 'paranoia'
+gem 'redcarpet'
 gem 'resque'
 gem 'whenever'
 # gem 'capistrano-rails', group: :development

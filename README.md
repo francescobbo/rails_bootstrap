@@ -42,6 +42,10 @@ This project provides a nice starting point for new projects. It includes the ge
 * guard-livereload
 * Redcarpet
 
+## Where's Paperclip?
+
+I decided to not include Carrierwave or Paperclip to avoid religious wars and since them both require a small amount of configuration depending on your use case.
+
 ## Instructions
 
 Choose a name for your app, say `myapp`

@@ -35,6 +35,7 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'guard-rspec', require: false
   gem 'quiet_assets'
+  gem 'meta_request'
 end
 
 group :development, :test do

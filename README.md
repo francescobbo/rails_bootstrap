@@ -62,7 +62,7 @@ Choose a name for your app, say `myapp`
     bundle install
     rails g rename:app_to myapp
 
-Remove the `rename` gem from the Gemfile and run `bundle`
+Remove the `rename` gem from the Gemfile and run `bundle` again.
 
 Log in to New Relic, create a new app and put the received newrelic.yml file in the config directory.
 

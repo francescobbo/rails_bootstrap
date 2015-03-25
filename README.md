@@ -53,6 +53,7 @@ Choose a name for your app, say `myapp`
 
     git clone https://github.com/aomega08/rails_bootstrap
     cd rails_bootstrap
+    bundle install
     rails g rename:app_to myapp
 
 Remove the `rename` gem from the Gemfile and run `bundle`

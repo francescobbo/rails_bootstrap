@@ -25,6 +25,7 @@ gem 'turbolinks'
 
 # Other
 gem 'bcrypt', '~> 3.1.7'
+gem 'draper'
 gem 'paranoia'
 gem 'redcarpet'
 gem 'resque'

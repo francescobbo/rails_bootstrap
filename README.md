@@ -39,13 +39,19 @@ This project provides a nice starting point for new projects. It includes the ge
 
 ### Utils
 
+* [Draper](https://github.com/drapergem/draper) - Decorators on steroids
+* [RedCarpet](https://github.com/vmg/redcarpet) - Easy Markdown rendering
 * Spring (with RSpec support)
 * [guard-livereload](https://github.com/guard/guard-livereload) - Reload the browser as the file changes
-* [RedCarpet](https://github.com/vmg/redcarpet) - Easy Markdown rendering
+* [meta_request](https://github.com/dejan/rails_panel/tree/master/meta_request) - See request details in Chrome Developer Tools
 
 ## Where's Paperclip?
 
 I decided to not include Carrierwave or Paperclip to avoid religious wars and since them both require a small amount of configuration depending on your use case.
+
+## Where's Figaro?
+
+As of today, Rails own secrets.yml covers most of Figaro's use cases. If you still miss it, however, just add it to the Gemfile and run `figaro install`.
 
 ## Instructions
 

@@ -20,9 +20,6 @@ gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 
-# Deployment
-# gem 'capistrano-rails', group: :development
-
 # Other
 gem 'bcrypt', '~> 3.1.7'
 gem 'draper'
@@ -36,6 +33,13 @@ group :development do
   gem 'guard-rspec', require: false
   gem 'quiet_assets'
   gem 'meta_request'
+
+  # Deployment
+  gem 'capistrano'
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails'
+  gem 'capistrano3-unicorn'
+  gem "capistrano-resque", "~> 0.2.2", require: false
 end
 
 group :development, :test do

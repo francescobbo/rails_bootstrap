@@ -44,6 +44,7 @@ This project provides a nice starting point for new projects. It includes the ge
 * Spring (with RSpec support)
 * [guard-livereload](https://github.com/guard/guard-livereload) - Reload the browser as the file changes
 * [meta_request](https://github.com/dejan/rails_panel/tree/master/meta_request) - See request details in Chrome Developer Tools
+* [Capistrano](https://github.com/capistrano/capistrano) and plugins - Easy deploy
 
 ## Where's Paperclip?
 
@@ -65,5 +66,13 @@ Choose a name for your app, say `myapp`
 Remove the `rename` gem from the Gemfile and run `bundle` again.
 
 Log in to New Relic, create a new app and put the received newrelic.yml file in the config directory.
+
+When you're ready to deploy remember to configure Capistrano in the `config/deploy.rb` file and `config/deploy/production.rb` file. For help use the [official documentation](https://github.com/capistrano/capistrano).
+By default, unicorn has been configured to listen on a socket. Install nginx and configure it to act as a proxy on that socket. This method has a few advantages like fast redirects, easy caching, SSL, multisite configuration and direct static asset access.
+If however you just want to expose Unicorn to the world, change the `config/unicorn/production.rb` to listen on port 80. __This is not recommended__.
+
+Then run
+
+    cap production deploy
 
 Enjoy.

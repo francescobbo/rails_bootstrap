@@ -100,10 +100,12 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
-    faker (1.4.3)
+    faker (1.5.0)
       i18n (~> 0.5)
     ffi (1.9.10)
     formatador (0.2.5)
+    friendly_id (5.1.0)
+      activerecord (>= 4.0.0)
     git-version-bump (0.15.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -331,6 +333,7 @@ DEPENDENCIES
   draper
   factory_girl_rails
   faker
+  friendly_id
   guard-livereload
   guard-rspec
   jbuilder (~> 2.0)

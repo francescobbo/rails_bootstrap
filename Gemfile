@@ -23,7 +23,7 @@ gem 'turbolinks'
 # Other
 gem 'bcrypt', '~> 3.1.7'
 gem 'draper'
-gem 'paranoia'
+# gem 'paranoia' # Including paranoia does not let you spec without ActiveRecord (eg. using MongoDB)
 gem 'redcarpet'
 gem 'resque'
 gem 'whenever'

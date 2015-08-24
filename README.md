@@ -40,6 +40,7 @@ This project provides a nice starting point for new projects. It includes the ge
 
 ### Utils
 
+* [FriendlyId](https://github.com/norman/friendly_id) - Easy slugs in URLs
 * [Draper](https://github.com/drapergem/draper) - Decorators on steroids
 * [RedCarpet](https://github.com/vmg/redcarpet) - Easy Markdown rendering
 * Spring (with RSpec support)

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rename'	# Use and remove
 
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.3'
 gem 'unicorn'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production

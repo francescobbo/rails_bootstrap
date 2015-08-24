@@ -28,6 +28,7 @@ This project provides a nice starting point for new projects. It includes the ge
 * [RSpec](https://github.com/rspec/rspec)
 * [Capybara](https://github.com/jnicklas/capybara) (with Selenium on Chrome driver)
 * [FactoryGirl](https://github.com/thoughtbot/factory_girl)
+* [Faker](https://github.com/stympy/faker) - Generate fake data for realistic tests
 * [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner) - Cleanup the Test Database
 * [Timecop](https://github.com/travisjeffery/timecop) - Freeze time during tests
 * [guard-rspec](https://github.com/guard/guard-rspec) - Run tests as the file changes

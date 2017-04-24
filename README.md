@@ -35,7 +35,6 @@ This project provides a nice starting point for new projects. It includes the ge
 
 ### Delaying
 
-* [Resque](https://github.com/resque/resque) - Procrastinate long tasks
 * [Whenever](https://github.com/javan/whenever) - Manage cron jobs
 
 ### Utils

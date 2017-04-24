@@ -14,7 +14,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
-/tmp
+
+/tmp/*
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
 
 # Vi, RubyMine and SublimeText rubbish
 *.swp

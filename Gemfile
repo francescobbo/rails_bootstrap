@@ -7,7 +7,7 @@ end
 
 gem 'rename'	# Use and remove
 
-gem 'rails', '~> 5.1.0.rc2'
+gem 'rails', '~> 5.1.0'
 gem 'puma', '~> 3.7'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
